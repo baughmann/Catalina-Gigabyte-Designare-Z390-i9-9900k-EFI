@@ -1,5 +1,8 @@
 # Gigabyte Designaire Z390 - for macOS Catalina 10.15 (19A602)
 
+### General Information
+This EFI uses Clover v2.5k-5097. This is a vanilla install. All kexts and drivers are kept in the EFI folder.
+
 ## Before You Boot:
 ### Make necessary changes to the `config.plist`
 
@@ -12,8 +15,9 @@
 
 ### Misc. Recommendations
 - Install Catalina using AFPS and *not* using MacOS Extended Journaled
-- Add `-v` to boot arguments to boot via verbose mode until you're positive you have a good setup, instead of showing the logo until. 
+- Add `-v` to boot arguments to boot via verbose mode until you're positive you have a good setup, instead of showing the logo. 
     - This can be done by pressing the `Space` button on your keyboard in the Clover boot menu while (make sure you have the installation drive selected), and then selecteding `-v` in the middle of the argiments list. Then, go up to the top and click `boot <VOLUME_NAME> with selected options`.
+- A custom theme has been applied. You may wish to revert to the standard theme or apply your own.
 
 ---
 ## My Hardware:
@@ -21,7 +25,7 @@
 - Intel Core i9 9900K
 - AMD Radeon VII 16 GB
 - Fenvi T919 Bluetooth/WiFi Card
-- Samsun EVO 860s and 850s
+- Samsung EVO 860s and 850s
 
 ---
 
@@ -30,9 +34,13 @@
 2. Audio (except the rear IO's 3.5mm jack... the front one works somehow)
 3. NVRAM Emulation
 4. Shutdown / Restart / Sleep (including bluetooth-on-wake)
-5. USB 3.0 / 3.1 (including charging)
-6. Thunderbolt 3 (including charging)
+5. USB 3.0 / 3.1 (including charging and hotswapping)
+6. Thunderbolt 3 (including charging and hotswapping)
 
 ## Changes
 **10/18/2019**
 - Fixed Shutdown and Sleep / Bluetooth-on-wakeup by adding EmuVariableUefi to the list of drivers
+
+**10/19/2019**
+- Updated to CLover 2.5-5097 from 5095.
+- Removed two unused themes.

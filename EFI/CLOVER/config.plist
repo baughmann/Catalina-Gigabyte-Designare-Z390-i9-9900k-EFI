@@ -190,13 +190,18 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>ConsoleMode</key>
+		<string>3840x2160</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 			<string>Recovery</string>
+			<string>Windows</string>
 		</array>
 		<key>KbdPrevLang</key>
 		<true/>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
