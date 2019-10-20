@@ -3,10 +3,10 @@
 ### General Information
 This EFI uses Clover v2.5k-5097. This is a vanilla install. All kexts and drivers are kept in the EFI folder.
 
-**Benchmarks**:
-CPU: https://browser.geekbench.com/v5/cpu/428952
-OpenCL: https://browser.geekbench.com/v5/compute/179095
-Metal: https://browser.geekbench.com/v5/compute/179102
+**Benchmarks**:<br>
+CPU: https://browser.geekbench.com/v5/cpu/428952 <br>
+OpenCL: https://browser.geekbench.com/v5/compute/179095<br>
+Metal: https://browser.geekbench.com/v5/compute/179102<br>
 
 ## Before You Boot:
 ### Make necessary changes to the `config.plist`
