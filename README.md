@@ -9,6 +9,9 @@ OpenCL: https://browser.geekbench.com/v5/compute/179095<br>
 Metal: https://browser.geekbench.com/v5/compute/179102<br>
 
 ## Before You Boot:
+### Grab updated Kexts and Drivers!
+While this EFI is still what I use every day, you need to keep your Kexts and Drivers updated! The versions shipped with the EFI don't work with the latest versions of Catalina (10.15.2 (19C57) at time of writing). Either look through the respective folders and manually download and replace the new versions, or point the Clover COnfigurator at the directory and pull them through the UI. I recommend the second way.
+
 ### Make necessary changes to the `config.plist`
 
 1. Ensure that you visit the SMBIOS in Clover Configurator pane and add your own Serial Numbers. They have been removed from this config.plist. 
