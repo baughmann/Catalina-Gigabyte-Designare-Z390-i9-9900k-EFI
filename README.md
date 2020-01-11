@@ -47,6 +47,9 @@ While this EFI is still what I use every day, you need to keep your Kexts and Dr
 5. USB 3.0 / 3.1 (including charging and hotswapping)
 6. Thunderbolt 3 (including charging and hotswapping)
 
+## Not working
+1. NVRAM is broken. I would love to know how to fix this. I hate having to select the OS each time I boot the computer... If anyone knows how to fix this, please open an issue or make a pull request.
+
 ## Changes
 **10/18/2019**
 - Fixed Shutdown and Sleep / Bluetooth-on-wakeup by adding EmuVariableUefi to the list of drivers
