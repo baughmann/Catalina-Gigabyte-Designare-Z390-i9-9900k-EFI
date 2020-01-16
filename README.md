@@ -48,7 +48,12 @@ While this EFI is still what I use every day, you need to keep your Kexts and Dr
 6. Thunderbolt 3 (including charging and hotswapping)
 
 ## Not working
-1. NVRAM is broken. I would love to know how to fix this. I hate having to select the OS each time I boot the computer... If anyone knows how to fix this, please open an issue or make a pull request.
+1. In order to get NVRAM working properly, follow the following steps here: https://www.tonymacx86.com/threads/success-ongoing-status-of-designare-z390-with-i7-9700k.266065/. I will update the EFI folder with my current one at some point (probably)...
+
+> 12-07-2018: Thanks to this post by @kkho555 both Shutdown and Reboot are finally working. The key is to enable the slide=0 > field in Clover Configurator boot options and install EmuVariableUEFI-64.efi. Installing this driver by itself without 
+> slide=0 leads to catastrophe! Use the Clover installer (not Clover Configurator) to install EmuVariableUEFI-64.efi, 
+> AptioMemoryFix-64.efi, and click the option to Install RC Scripts to Target Volume.
+
 
 ## Changes
 **10/18/2019**
