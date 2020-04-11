@@ -1,4 +1,7 @@
 # Gigabyte Designaire Z390 - for macOS Catalina 10.15 (19A602)
+## UPDATE:
+I've posted an OpenCore version of this EFI that you can [find here](https://github.com/baughmann/designaire-z390-intel-i9-9900k-opencore).
+
 ### For newbies
 I documented the general steps you need to take to get a Hackintosh working with this EFI. You can see those steps here: https://github.com/baughmann/Catalina-Gigabyte-Designare-Z390-i9-9900k-EFI/issues/1#issuecomment-573356024
 
