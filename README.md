@@ -1,3 +1,8 @@
+> ### IMPORTANT UPDATE
+> #### As of macOS 10.15.5 I no longer suggest using Clover
+> If you have modeled your system after mine, I suggest using [my OpenCore EFI instead](https://github.com/baughmann/designaire-z390-intel-i9-9900k-opencore). OpenCore is generally much faster and cleaner. It takes quite a bit more configuration than Clover does on Z390 boards, but lucky for you I've already dealt with that pain.
+
+
 # Gigabyte Designaire Z390 - for macOS Catalina 10.15 (19A602)
 ## UPDATE:
 I've posted an OpenCore version of this EFI that you can [find here](https://github.com/baughmann/designaire-z390-intel-i9-9900k-opencore).
